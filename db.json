@@ -1,0 +1,43 @@
+{
+  "todos": [],
+  "users": [
+    {
+      "id": "user1",
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "user2",
+      "name": "Ayşe Demir",
+      "email": "ayse@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "user3",
+      "name": "Mehmet Can",
+      "email": "mehmet@example.com",
+      "role": "viewer"
+    }
+  ],
+  "activty": [
+    {
+      "id": "act1",
+      "userId": "user1",
+      "action": "login",
+      "timestamp": "2024-08-10T14:48:00Z"
+    },
+    {
+      "id": "act2",
+      "userId": "user2",
+      "action": "create_todo",
+      "timestamp": "2024-08-11T09:12:00Z"
+    },
+    {
+      "id": "act3",
+      "userId": "user3",
+      "action": "update_profile",
+      "timestamp": "2024-08-12T18:30:00Z"
+    }
+  ]
+}
